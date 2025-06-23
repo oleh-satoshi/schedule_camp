@@ -157,12 +157,10 @@ export function ScheduleTable() {
                         return (
                           <td key={squadKey} className="p-1.5 sm:p-2 align-top group-hover:bg-gray-50">
                             <div
-                              className={`flex items-center justify-start max-w-min p-1.5 sm:p-2 rounded-md border ${details.borderColor} ${details.bgColor} ${details.textColor}`}
+                              className={`flex items-center justify-start p-2 sm:p-2.5 rounded-md border ${details.borderColor} ${details.bgColor} ${details.textColor}`}
                             >
                               <span className="text-base mr-1.5">{details.emoji}</span>
-                              <span className="text-xs font-semibold leading-snug whitespace-nowrap">
-                                {details.name}
-                              </span>
+                              <span className="text-xs font-semibold leading-snug">{details.name}</span>
                             </div>
                           </td>
                         )
