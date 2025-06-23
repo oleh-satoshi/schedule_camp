@@ -68,10 +68,3 @@
     "typescript": "^5"
   }
 }
-
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "export": "next export",
-  "deploy": "gh-pages -d out"
-}
