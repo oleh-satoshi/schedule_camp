@@ -9,6 +9,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  output: 'export',
+  basePath: '/schedule_camp',
+  assetPrefix: '/schedule_camp',
+  trailingSlash: true,
+};
 
-export default nextConfig
+export default nextConfig;
